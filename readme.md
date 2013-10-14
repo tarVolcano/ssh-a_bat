@@ -1,12 +1,17 @@
 #DOS(NYAOS+Console2)でssh-agentを起動するバッチ
 
+##作成動機
+- NYAOS(DOS)上でGit for Windowsのssh-agentを実行すると環境変数が上手く登録されず動作しないので、動くようにしてみた。  
+
+ 置き場：https://github.com/tarVolcano/ssh-a_bat
+
 ##使い方
 
-- NYAOS+Console2：cmdsource "ssh-a.bat"を実行。(_nyaファイルでaliasを指定して、ついでに実行すると良い)
+- NYAOS+Console2：`cmdsource "ssh-a.bat"`を実行。(_nyaファイルでaliasを指定して、ついでに実行すると良い)
 
-- DOS：ssh-a.batを実行
+- DOS：`ssh-a.bat`を実行
 
- ※バッチ実行後、ssh -T git@github.com などで接続確認してください。
+ ※バッチ実行後、`ssh -T git@github.com`などで接続確認してください。
 
 
 ##バッチの目的
